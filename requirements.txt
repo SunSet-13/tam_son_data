@@ -1,0 +1,8 @@
+apache-airflow-providers-amazon
+minio == 7.2.14
+apache-airflow-providers-docker == 4.0.0
+apache-airflow-providers-postgres
+# Xóa dòng cũ và thay bằng version mới hơn
+astro-sdk-python[amazon,postgres]>=1.8.1
+apache-airflow-providers-slack==8.1.0
+pandas>=2.0.0

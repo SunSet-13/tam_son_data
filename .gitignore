@@ -1,0 +1,43 @@
+.git
+.env
+.env.*
+!.env.example
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+
+# Secrets and keys (keep local only)
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+*secret*
+*token*
+*credential*
+
+# Large/raw data (do not push)
+tamson_sales_data/
+include/data/
+nvda-stock-data-pipeline/
+
+# Data and artifact files
+*.csv
+*.parquet
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+*.h5
+*.hdf5
+
+# Keep examples/templates tracked
+!*.example
